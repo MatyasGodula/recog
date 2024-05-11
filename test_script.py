@@ -27,7 +27,7 @@ def find_similarities_and_precision(truth_dict, classification_dict):
     else:
         print("No data to evaluate accuracy.")
 
-file_path_truth = 'train_path/truth.dsv'
+file_path_truth = 'train_700_28/truth.dsv'
 file_path_classification = 'classification.dsv'
 
 dictionary_truth = read_dsv_file(file_path_truth)
